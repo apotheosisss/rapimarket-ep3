@@ -1,0 +1,5 @@
+# Dependencias del dashboard (Streamlit Community Cloud lee este archivo por estar junto a app.py)
+pandas>=2.0
+numpy>=1.24
+plotly>=5.20
+streamlit>=1.50

@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+~$*
+.vscode/
+.idea/
+
+# Secretos de Streamlit (nunca subir)
+.streamlit/secrets.toml

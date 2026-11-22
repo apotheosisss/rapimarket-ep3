@@ -1,0 +1,6 @@
+tabla,control,valor,tratamiento
+pedidos,nulos en temp_llegada_c,129878.0,Esperado: solo los pedidos con congelados registran temperatura. Nulos en pedidos con congelados: 0.
+pedidos,outliers tiempo_entrega_min (IQR),13451.0,"Se conservan: son entregas lentas reales y son justamente el problema a medir. Se reportan p90 y mediana, robustos a extremos."
+pedidos,outliers monto_productos_clp (IQR),4987.0,Se conservan: compras grandes plausibles (hasta 76 productos). El ticket se informa con promedio y mediana.
+pedidos,atrasado coherente con tiempo > ventana,99.98,% de coincidencia. Se usa la marca 'atrasado' de la fuente (entrega fuera de la ventana de 45 min).
+reclamos,outliers horas_respuesta (IQR),1691.0,Se conservan: las respuestas tardías son el indicador 'reclamo sin respuesta > 24 h'.

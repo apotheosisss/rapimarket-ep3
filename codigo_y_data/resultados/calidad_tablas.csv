@@ -1,0 +1,7 @@
+tabla,filas,columnas,nulos,duplicados_llave,filas_duplicadas,llaves_huerfanas
+clientes,78000,5,0,0,0,0
+bodegas,7,4,0,0,0,0
+pedidos,193419,14,129878,0,0,0
+reclamos,27414,5,0,0,0,0
+calificaciones,77600,2,0,0,0,0
+cupones,48103,2,0,0,0,0

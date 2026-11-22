@@ -1,0 +1,8 @@
+{
+  "auc_prueba": 0.6436,
+  "auc_anexo": 0.81,
+  "n_entrenamiento": 108920,
+  "n_prueba": 46681,
+  "tasa_no_recompra": 0.3666,
+  "objetivo": "No recompra a 30 días (pedidos con 30 días de seguimiento: 01-jul a 31-ago)"
+}
